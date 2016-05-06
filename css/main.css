@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #eeeded;
+    margin: 0;
+}
+
+.big-title {
+    text-align: center;
+}
+
+.projects {
+    margin: 30px 50px;
+}
+
+.project {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-grow: 10;
+    padding: 30px;
+    margin-bottom: 30px;
+    min-width: 500px;
+}
+
+.project_icon-wrap {
+    flex-grow: 1;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.project_icon {
+    height: 70px;
+}
+
+.project_body {
+    flex-grow: 99;
+}
+
+.project_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_link {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 40px;
+    transition: color .4s;
+    color: #265C83;
+    text-decoration: none;
+}
+
+.project_link:link,
+.project_link:visited { color: #265C83; }
+.project_link:hover   { color: #7FDBFF; }
+.project_link:active  {
+  transition: color .3s;
+  color: #007BE6;
+}
+
+.project_link-with-ico {
+    position: relative;
+}
+
+.project_link-with-ico:before {
+    display: block;
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.github-ico:before {
+    background-image: url(../links-ico/github.png);
+}
+
+.onedrive-ico:before {
+    background-image: url(../links-ico/onedrive.png);
+}
+
+.dropbox-ico:before {
+    background-image: url(../links-ico/dropbox.png);
+}
