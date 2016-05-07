@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: #eeeded;
+    background: #212121;
     margin: 0;
 }
 
@@ -15,23 +15,23 @@ body {
 }
 
 .projects {
-    margin: 30px 50px;
+    margin: 6px 6px;
 }
 
 .project {
     background: #fff;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     display: flex;
     flex-grow: 10;
-    padding: 30px;
-    margin-bottom: 30px;
-    min-width: 500px;
+    padding: 6px;
+    margin-bottom: 12px;
+    min-width: 350px;
 }
 
 .project_icon-wrap {
     flex-grow: 1;
-    margin-right: 30px;
+    margin-right: 6px;
     display: flex;
     align-items: center;
 
@@ -56,16 +56,16 @@ body {
     height: 40px;
     padding-left: 40px;
     transition: color .4s;
-    color: #265C83;
+    /*color: #265C83;*/
     text-decoration: none;
 }
 
 .project_link:link,
-.project_link:visited { color: #265C83; }
-.project_link:hover   { color: #7FDBFF; }
+.project_link:visited { color: #212121; }
+.project_link:hover   { color: #2196F3; }
 .project_link:active  {
   transition: color .3s;
-  color: #007BE6;
+  color: #212121;
 }
 
 .project_link-with-ico {
@@ -86,11 +86,18 @@ body {
 .github-ico:before {
     background-image: url(../links-ico/github.png);
 }
-
 .onedrive-ico:before {
     background-image: url(../links-ico/onedrive.png);
 }
-
+.onenote-ico:before {
+    background-image: url(../links-ico/onenote.png);
+}
 .dropbox-ico:before {
     background-image: url(../links-ico/dropbox.png);
+}
+.todoist-ico:before {
+    background-image: url(../links-ico/todoist.png);
+}
+.adobecrcl-ico:before {
+    background-image: url(../links-ico/adobecreativecloud.png);
 }
