@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background: #212121;
     margin: 0;
 }
@@ -126,4 +127,19 @@ body {
 }
 .adobecrcl-ico:before {
     background-image: url(../links-ico/adobecreativecloud.png);
+}
+.gdrive-ico:before {
+    background-image: url(../links-ico/gdrive.png);
+}
+.gplay-ico:before {
+    background-image: url(../links-ico/gplay.png);
+}
+.bitbucket-ico:before {
+    background-image: url(../links-ico/bitbucket.png);
+}
+.vk-ico:before {
+    background-image: url(../links-ico/vk.png);
+}
+.telegram-ico:before {
+    background-image: url(../links-ico/telegram.png);
 }

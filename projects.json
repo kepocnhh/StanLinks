@@ -1,54 +1,106 @@
 [
     {
-        "projectName": "BrightCast",
-        "projectIcon": "projects-ico/BrightCast.png",
+        "projectName": "staninitiative",
+        "projectIcon": "projects-ico/stanleyprojects/staninitiative.png",
         "githubLink": {
-            "name": "BrightCast",
-            "url": "https://github.com/madtaras/BrightCast"
+            "name": "StanInitiativeJavaFX",
+            "url": "https://github.com/kepocnhh/StanInitiativeJavaFX"
           },
         "dropboxLink": {
-            "name": "BrightCast",
-            "url": "https://www.dropbox.com"
+            "name": "StIn Dropbox",
+            "url": "https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/StanInitiative"
           },
-        "onedriveLink": {
-            "name": "BrightCast",
-            "url": "https://onedrive.live.com/about/en-us"
+        "onenoteLink": {
+            "name": "StIn OneNote",
+            "url": "https://onedrive.live.com/edit.aspx?resid=335C5D750A74431F!10066&cid=335c5d750a74431f&app=OneNote"
           },
-        "otherLinks": [
-            {
-                "name": "Developer",
-                "url": "https://new.vk.com/madtaras"
-            },
-            {
-                "name": "oboejs",
-                "url": "http://oboejs.com/"
-            }
-        ]
+        "todoistLink": {
+            "name": "StIn Todoist",
+            "url": "https://todoist.com/app?lang=en&v=723#project%2F149450718"
+          }
     },
     {
-        "projectName": "BrightCast",
-        "projectIcon": "projects-ico/BrightCast.png",
-        "githubLink": {
-            "name": "BrightCast",
-            "url": "https://github.com/madtaras/BrightCast"
-          },
-        "dropboxLink": {
-            "name": "BrightCast",
-            "url": "https://www.dropbox.com"
-          },
-        "onedriveLink": {
-            "name": "BrightCast",
-            "url": "https://onedrive.live.com/about/en-us"
-          },
-        "otherLinks": [
-            {
-                "name": "Developer",
-                "url": "https://new.vk.com/madtaras"
-            },
-            {
-                "name": "oboejs",
-                "url": "http://oboejs.com/"
-            }
-        ]
-    }
+  "projectName": "StanProjectBuilder",
+  "projectIcon": "projects-ico/stanleyprojects/stanprojectbuilder.png",
+  "githubLink": {
+    "name": "StanProjectBuilder",
+    "url": "https://github.com/kepocnhh/StanProjectBuilder"
+  },
+  "dropboxLink": {
+    "name": "SPB Dropbox",
+    "url": "https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/StanProjectBuilder"
+  },
+  "onenoteLink": {
+    "name": "SPB OneNote",
+    "url": "https://onedrive.live.com/edit.aspx?resid=335C5D750A74431F!132667&cid=335c5d750a74431f&app=OneNote"
+  }
+},
+{
+  "projectName": "BullsCows",
+  "projectIcon": "projects-ico/stanleyprojects/bullscows.png",
+  "githubLink": {
+    "name": "BullsCows android",
+    "url": "https://github.com/kepocnhh/BullsCows"
+  },
+  "dropboxLink": {
+    "name": "BullsCows Dropbox",
+    "url": "https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/BullsCows"
+  },
+  "onenoteLink": {
+    "name": "BullsCows OneNote",
+    "url": "https://onedrive.live.com/edit.aspx?resid=335C5D750A74431F!130641&cid=335c5d750a74431f&app=OneNote"
+  },
+  "todoistLink": {
+    "name": "BullsCows Todoist",
+    "url": "https://todoist.com/app?lang=en&v=720#project%2F160414868"
+  }
+},
+{
+  "projectName": "BrightCast",
+  "projectIcon": "projects-ico/madtaras/brightcast.png",
+  "bitbucketLink": {
+    "name": "BrightCast android",
+    "url": "https://bitbucket.org/brightcast/brightcastandroidapp"
+  },
+  "dropboxLink": {
+    "name": "BrightCast Dropbox",
+    "url": "https://www.dropbox.com/home/MyMachines/Work/MadTaras/BrightCast"
+  },
+  "todoistLink": {
+    "name": "BrightCast Todoist",
+    "url": "https://todoist.com/app?lang=en&v=731#project%2F163126713"
+  },
+  "vkLink": {
+    "name": "BrightCast - VK",
+    "url": "https://new.vk.com/brightcastmp"
+  },
+  "telegramLink": {
+    "name": "BrightCast Telegram",
+    "url": "https://web.telegram.org/#/im?p=g103501457"
+  }
+},
+    {
+  "projectName": "mafia",
+  "projectIcon": "projects-ico/stanleyprojects/mafia.png",
+  "githubLink": {
+    "name": "Mafia2",
+    "url": "https://github.com/kepocnhh/Mafia2"
+  },
+  "dropboxLink": {
+    "name": "Presenter Dropbox",
+    "url": "https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/Presenter"
+  },
+  "onenoteLink": {
+    "name": "Mafia OneNote",
+    "url": "https://onedrive.live.com/edit.aspx?resid=335C5D750A74431F!12300&cid=335c5d750a74431f&app=OneNote"
+  },
+  "todoistLink": {
+    "name": "Mafia2 Todoist",
+    "url": "https://todoist.com/app?lang=ru&v=731#project%2F157567690"
+  },
+  "gplayLink": {
+    "name": "MafiaDroid",
+    "url": "https://play.google.com/store/apps/details?id=stan.presenter.mafia"
+  }
+}
 ]

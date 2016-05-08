@@ -7,6 +7,7 @@
     <meta name="description" content="">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body ng-controller="StanLinksCtrl">
@@ -21,9 +22,13 @@
           <div class="project_body">
               <div class="project_links">
                   <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
-                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
-                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
-                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
+                  <a href="{{project.bitbucketLink.url}}" class="bitbucket-ico project_link project_link-with-ico" ng-show="project.bitbucketLink">{{project.bitbucketLink.name}}</a>
+                  <a href="{{project.dropboxLink.url}}" class="dropbox-ico project_link project_link-with-ico" ng-show="project.dropboxLink">{{project.dropboxLink.name}}</a>
+                  <a href="{{project.onenoteLink.url}}" class="onenote-ico project_link project_link-with-ico" ng-show="project.onenoteLink">{{project.onenoteLink.name}}</a>
+                  <a href="{{project.todoistLink.url}}" class="todoist-ico project_link project_link-with-ico" ng-show="project.todoistLink">{{project.todoistLink.name}}</a>
+                  <a href="{{project.gplayLink.url}}" class="gplay-ico project_link project_link-with-ico" ng-show="project.gplayLink">{{project.gplayLink.name}}</a>
+                  <a href="{{project.vkLink.url}}" class="vk-ico project_link project_link-with-ico" ng-show="project.vkLink">{{project.vkLink.name}}</a>
+                  <a href="{{project.telegramLink.url}}" class="telegram-ico project_link project_link-with-ico" ng-show="project.telegramLink">{{project.telegramLink.name}}</a>
               </div>
           </div>
       </div>
