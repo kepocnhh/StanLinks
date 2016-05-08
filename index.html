@@ -1,107 +1,37 @@
 <!doctype html>
-<html>
+<html ng-app="StanLinksApp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Stan's links</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-
-    <!-- <h1 class="big-title">Stan's links</h1> -->
+<body ng-controller="StanLinksCtrl">
 
     <div class="projects">
 
-        <div class="project">
-            <div class="project_icon-wrap">
-                <img src="projects-ico/staninitiative.png" alt="" class="project_icon">
-            </div>
+      <div class="project" ng-repeat="project in projects">
+          <div class="project_icon-wrap">
+              <img ng-src="{{project.projectIcon}}" alt="" class="project_icon">
+          </div>
 
-            <div class="project_body">
-                <!-- <h2 class="project_title">StanInitiative</h2> -->
-                <div class="project_links">
-                    <a href="https://github.com/kepocnhh/StanInitiativeJavaFX" class="github-ico project_link project_link-with-ico">StanInitiativeJavaFX</a>
-                    <a href="https://onedrive.live.com/edit.aspx?resid=335C5D750A74431F!10066&cid=335c5d750a74431f&app=OneNote" class="onenote-ico project_link project_link-with-ico">StanInitiative</a>
-                    <a href="https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/StanInitiative" class="dropbox-ico project_link project_link-with-ico">StanInitiative</a>
-                    <a href="https://todoist.com/app?lang=en&v=723#project%2F149450718" class="todoist-ico project_link project_link-with-ico">StanInitiative</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="project_icon-wrap">
-                <img src="projects-ico/BrightCast.png" alt="" class="project_icon">
-            </div>
-
-            <div class="project_body">
-                <h2 class="project_title">BrightCast</h2>
-                <div class="project_links">
-                    <a href="https://github.com/madtaras/BrightCast" class="github-ico project_link project_link-with-ico">https://github.com/madtaras/BrightCast</a>
-                    <a href="https://onedrive.live.com" class="onedrive-ico project_link project_link-with-ico">https://onedrive.live.com</a>
-                    <a href="https://www.dropbox.com" class="dropbox-ico project_link project_link-with-ico">https://www.dropbox.com</a>
-                    <a href="https://developer.mozilla.org/" class="project_link">https://developer.mozilla.org/</a>
-                    <a href="https://www.moo.do/app/" class="project_link">https://www.moo.do/app/</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="project_icon-wrap">
-                <img src="projects-ico/BrightCast.png" alt="" class="project_icon">
-            </div>
-
-            <div class="project_body">
-                <h2 class="project_title">BrightCast</h2>
-                <div class="project_links">
-                    <a href="https://github.com/madtaras/BrightCast" class="github-ico project_link project_link-with-ico">https://github.com/madtaras/BrightCast</a>
-                    <a href="https://onedrive.live.com" class="onedrive-ico project_link project_link-with-ico">https://onedrive.live.com</a>
-                    <a href="https://www.dropbox.com" class="dropbox-ico project_link project_link-with-ico">https://www.dropbox.com</a>
-                    <a href="https://developer.mozilla.org/" class="project_link">https://developer.mozilla.org/</a>
-                    <a href="https://www.moo.do/app/" class="project_link">https://www.moo.do/app/</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="project_icon-wrap">
-                <img src="projects-ico/BrightCast.png" alt="" class="project_icon">
-            </div>
-
-            <div class="project_body">
-                <h2 class="project_title">BrightCast</h2>
-                <div class="project_links">
-                    <a href="https://github.com/madtaras/BrightCast" class="github-ico project_link project_link-with-ico">https://github.com/madtaras/BrightCast</a>
-                    <a href="https://onedrive.live.com" class="onedrive-ico project_link project_link-with-ico">https://onedrive.live.com</a>
-                    <a href="https://www.dropbox.com" class="dropbox-ico project_link project_link-with-ico">https://www.dropbox.com</a>
-                    <a href="https://developer.mozilla.org/" class="project_link">https://developer.mozilla.org/</a>
-                    <a href="https://www.moo.do/app/" class="project_link">https://www.moo.do/app/</a>
-                </div>
-            </div>
-        </div>
-
-        <!--  HOW TO USE
-        <div class="project">
-            <div class="project_icon-wrap">
-                <img src="projects-ico/BrightCast.png" alt="" class="project_icon">
-            </div>
-
-            <div class="project_body">
-                <h2 class="project_title">BrightCast</h2>
-                <div class="project_links">
-                    <a href="https://github.com/madtaras/BrightCast" class="github-ico project_link project_link-with-ico">https://github.com/madtaras/BrightCast</a>
-                    <a href="https://onedrive.live.com" class="onedrive-ico project_link project_link-with-ico">https://onedrive.live.com</a>
-                    <a href="https://www.dropbox.com" class="dropbox-ico project_link project_link-with-ico">https://www.dropbox.com</a>
-                    <a href="https://developer.mozilla.org/" class="project_link">https://developer.mozilla.org/</a>
-                    <a href="https://www.moo.do/app/" class="project_link">https://www.moo.do/app/</a>
-                </div>
-            </div>
-        </div>
-        -->
+          <div class="project_body">
+              <div class="project_links">
+                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
+                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
+                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
+                  <a href="{{project.githubLink.url}}" class="github-ico project_link project_link-with-ico" ng-show="project.githubLink">{{project.githubLink.name}}</a>
+              </div>
+          </div>
+      </div>
+      <!-- ng-repeat="otherLink in project.otherLinks"  -->
 
     </div>
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
