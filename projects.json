@@ -1,6 +1,7 @@
 [
   {
     "projectName": "staninitiative",
+    "cardColor": "#72362a",
     "projectIcon": "projects-ico/stanleyprojects/staninitiative.png",
     "githubLink": {
       "name": "StanInitiativeJavaFX",
@@ -17,6 +18,18 @@
     "todoistLink": {
       "name": "StIn Todoist",
       "url": "https://todoist.com/app?lang=en&v=723#project%2F149450718"
+    }
+  },
+  {
+    "projectName": "StanVoiceRecognition",
+    "projectIcon": "projects-ico/stanleyprojects/stanvoicerecognition.png",
+    "githubLink": {
+      "name": "StanVR",
+      "url": "https://github.com/kepocnhh/StanVoiceRecognition"
+    },
+    "dropboxLink": {
+      "name": "StVR Dropbox",
+      "url": "https://www.dropbox.com/home/MyMachines/Work/%5BStanley%20Projects%5D/StanVoiceRecognition"
     }
   },
   {
@@ -77,6 +90,26 @@
     "telegramLink": {
       "name": "BrightCast Telegram",
       "url": "https://web.telegram.org/#/im?p=g103501457"
+    }
+  },
+  {
+    "projectName": "TravelAndroidApp",
+    "projectIcon": "projects-ico/somethingcool/travel.png",
+    "bitbucketLink": {
+      "name": "Travel android",
+      "url": "https://bitbucket.org/brightcast/travelandroidapp"
+    },
+    "dropboxLink": {
+      "name": "Travel Dropbox",
+      "url": "https://www.dropbox.com/home/mymachines/work/madtaras/MadtarasTravel"
+    },
+    "todoistLink": {
+      "name": "Travel Todoist",
+      "url": "https://todoist.com/app?lang=en&v=732#project%2F170603643"
+    },
+    "telegramLink": {
+      "name": "Travel Telegram",
+      "url": "https://web.telegram.org/#/im?p=g120831803"
     }
   },
   {
